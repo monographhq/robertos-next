@@ -48,6 +48,6 @@ export  const  typeDefs = gql`
   }
 
   type Query {
-    getEntries: [Entry]
+    entries: [Entry]
   }
 `
