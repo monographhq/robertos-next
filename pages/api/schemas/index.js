@@ -25,7 +25,8 @@ export  const  typeDefs = gql`
     vendor: Vendor!
     count: Int!
     quality: Quality!
-    notes: String
+    notes: String,
+    verify: Boolean
   }
 
   type Vendor {

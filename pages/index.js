@@ -12,6 +12,7 @@ const ENTRIES = gql`
       ingredient
       count
       quality
+      verify
       vendor {
         name
       }
@@ -41,7 +42,7 @@ export default function Home() {
           {data.entries.map( entry => {
             return (
               <li key={entry.date}>
-                {entry.date}, {entry.ingredient}, {entry.count}, {entry.quality}, {entry.vendor.name} 
+                {entry.date}, {entry.ingredient}, {entry.count}, {entry.quality}, {entry.verify}, {entry.vendor.name} 
               </li>
             )
           })}
