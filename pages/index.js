@@ -10,6 +10,8 @@ const ENTRIES = gql`
     entries {
       date
       ingredient
+      count
+      quality
       vendor {
         name
       }
@@ -37,7 +39,11 @@ export default function Home() {
 
         <ul>
           {data.entries.map( entry => {
-            return <li>{entry.date}, {entry.ingredient}, {entry.vendor.name}</li>
+            return (
+              <li key={entry.date}>
+                {entry.date}, {entry.ingredient}, {entry.count}, {entry.quality}, {entry.vendor.name} 
+              </li>
+            )
           })}
         </ul>
       </main>
