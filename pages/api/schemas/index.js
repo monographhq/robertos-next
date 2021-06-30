@@ -1,13 +1,53 @@
 import  {  gql  }  from  "apollo-server-micro"; 
 
 export  const  typeDefs = gql`
-    type  User {
-        id: ID
-        login: String
-        avatar_url: String
-    }
+  scalar Date
 
-    type  Query {
-        getUsers: [User]
-        getUser(name: String!): User!
-    }`
+  enum Ingredient {
+    YEAST
+    OLIVE_OIL
+    TOMATOES
+    MOZZARELLA
+    BASIL
+  }
+
+  enum Quality {
+    A
+    B
+    C
+    D
+    F
+  }
+
+  type Entry {
+    date: Date!
+    ingredient: Ingredient!
+    vendor: Vendor!
+    count: Int!
+    quality: Quality!
+    notes: String
+  }
+
+  type Vendor {
+    name: String!
+    ingredients: [Ingredient]
+    source: Source
+  }
+
+  enum API {
+    REST
+    PHONE
+    WEBHOOK
+    SMS
+    EMAIL
+  }
+
+  type Source {
+    api: API!
+    frequency: String
+  }
+
+  type Query {
+    getEntries: [Entry]
+  }
+`
