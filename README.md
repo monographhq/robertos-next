@@ -1,4 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Roberto's Next.js GraphQL API
+
+Our fearless CEO Roberto is not only [a pizzaiolo](https://github.com/monographhq/robertos/blob/main/README.md#roberto-il-pizzaiolo-), he's also a big fan of modern javascript and APIs. When he's not spending time proving dough, he's crafting a GraphQL backend to handle all the update madness that his vendors send him.
+
+## Problemo
+
+Build a sortable, nestable, groupable table view in React using the GraphQL API. The image below is for reference, please feel free to take creative liberties with the implementation on both design and product. [Figma file](https://www.figma.com/file/dmMcy9QvRHpWaxrOEQQrbG/Robertos-Dashboard?node-id=8%3A509) for additional reference. 
+
+Add one little special feature that you personally think is important in developing features (examples: updated design, animations, security, graphql refactor, testing, etc).
+
+Once you're finished please invite me to the repo and send a quick email. Github username: `moeamaya`
+
+![flat](https://user-images.githubusercontent.com/1373293/124149320-521a8380-da45-11eb-827b-7eae897ad87b.jpg)
+![grouped](https://user-images.githubusercontent.com/1373293/124149329-547cdd80-da45-11eb-8617-5c63168bfcf3.jpg)
+
+
+## API
+This is the current verison of the query, but feel free to change it up using the generator file (`generate.js`) to a format you think works better. You can play with the GraphQL API at `http://localhost:3000/api/graphql`
+
+```
+{
+  entries {
+    date
+    ingredient
+    count
+    quality
+    notes
+    verify
+    vendor {
+      name
+      ingredients
+      source {
+        api
+        frequency
+      }
+    }
+  }
+}
+```
 
 ## Getting Started
 
@@ -26,9 +64,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
