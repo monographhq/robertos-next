@@ -6,12 +6,16 @@ Our fearless CEO Roberto is not only [a pizzaiolo](https://github.com/monographh
 
 Build a sortable, nestable, groupable table view in React using the GraphQL API. The image below is for reference, please feel free to take creative liberties with the implementation on both design and product. [Figma file](https://www.figma.com/file/dmMcy9QvRHpWaxrOEQQrbG/Robertos-Dashboard?node-id=8%3A509) for additional reference. 
 
-Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, etc).
+View all: For the nested entries, only show a few (10) then have a button to show the rest of the entries. Product implementation is up to you
+
+Bonus: Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, etc).
 
 Once you're finished please invite me to the repo and send a quick email. Github username: `moeamaya`
 
 ![flat](https://user-images.githubusercontent.com/1373293/124149320-521a8380-da45-11eb-827b-7eae897ad87b.jpg)
-![grouped](https://user-images.githubusercontent.com/1373293/124149329-547cdd80-da45-11eb-8617-5c63168bfcf3.jpg)
+![grouped](https://user-images.githubusercontent.com/1373293/124194357-4945a400-da7d-11eb-98be-9ae4e8bb1015.jpg)
+
+
 
 
 ## API
