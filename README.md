@@ -6,7 +6,7 @@ Our fearless CEO Roberto is not only [a pizzaiolo](https://github.com/monographh
 
 Build a sortable, nestable, groupable table view in React using the GraphQL API. The image below is for reference, please feel free to take creative liberties with the implementation on both design and product. [Figma file](https://www.figma.com/file/dmMcy9QvRHpWaxrOEQQrbG/Robertos-Dashboard?node-id=8%3A509) for additional reference. 
 
-Add one little special feature that you personally think is important in developing features (examples: updated design, animations, security, graphql refactor, testing, etc).
+Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, etc).
 
 Once you're finished please invite me to the repo and send a quick email. Github username: `moeamaya`
 
