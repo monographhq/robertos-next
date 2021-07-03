@@ -10,7 +10,7 @@ Build a sortable, nestable, groupable table view in React using the GraphQL API.
 
 **View all:** For the nested entries, only show a few (10) then have a button to show the rest of the entries. Product implementation is up to you
 
-**Bonus:** Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, etc).
+**Bonus:** Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, Typescript, etc).
 
 Once you're finished please invite me to the repo and send a quick email. Github username: `moeamaya`
 
