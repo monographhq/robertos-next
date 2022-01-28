@@ -1,72 +1,23 @@
 # Roberto's Next.js GraphQL API
 
-Our fearless CEO Roberto is not only [a pizzaiolo](https://github.com/monographhq/robertos/blob/main/README.md#roberto-il-pizzaiolo-), he's also a big fan of modern javascript and APIs. When he's not spending time proving dough, he's crafting a GraphQL backend to handle all the update madness that his vendors send him.
+## Lessons Learned
 
-## Problemo
+If I had a chance to do this over, I would have thought more about how the final arrangement of entry data, column definitions, and the nested table would be structured as components. Instead, I worked from the inside out, starting with sorting. I didn't get beyond that, unfortunately.
 
-Build a sortable, nestable, groupable table view in React using the GraphQL API. The image below is for reference, please feel free to take creative liberties with the implementation on both design and product. [Figma file](https://www.figma.com/file/dmMcy9QvRHpWaxrOEQQrbG/Robertos-Dashboard?node-id=8%3A509) for additional reference. 
+## If I were to continue to work on this project
 
-**Group by:** To help Roberto organize the entry updates, please add a way to group the entry rows by ingredient. The image shows a dropdown, but you can implement with a simple button. 
+Obviously I would begin to add CSS. I'd probably use something like Tailwind to add styles within the HTML for the sake of the exercise. I'd use the team's design system if it were a part of a product.
 
-**View all:** For the nested entries, only show a few (10) then have a button to show the rest of the entries. Product implementation is up to you
+In EntryTable I would not include details of the entry columns. Rather, I would continue to create a kind of column definition structure like I started in EntryTable. The column definition structure would also include functions for how to render each table value (e.g., date formatting, enum conversion to strings, React Components for button actions, etc.). It would be defined outside the component and passed in as a prop with the table data.
 
-**Bonus:** Add one little special feature that you personally think is important in developing features (examples: updated design, animations, performance, graphql refactor, testing, Typescript, etc).
+I would create a NestedTable component that takes the column definitions and the table data. It would manage rendering the outer grouping/expandable tables when row grouping is selected. When row grouping is disabled, it would render an EntryTable with all of the entries. When row grouping is enabled, it would show/hide EntryTable components within each grouped row. Since EntryTable is rendered as an HTML <table>, the grouped rows that contain these tables would be rendered as divs. They'd be aligned vertically using CSS `grid`.
 
-Once you're finished please invite me to the repo and send a quick email. Github username: `moeamaya`
+I would want to add some basic component tests for abstract functions like managing sorting state in EntryTable and grouping rendering for NestedTable.
 
-![flat](https://user-images.githubusercontent.com/1373293/124149320-521a8380-da45-11eb-827b-7eae897ad87b.jpg)
-![grouped](https://user-images.githubusercontent.com/1373293/124194357-4945a400-da7d-11eb-98be-9ae4e8bb1015.jpg)
+I suspect the list of entries will eventually become too large to load all at once. Eventually I'd want to move sorting and grouping into the GraphQL resolvers. I've not yet worked with Apollo Server, so I decided not to go that route for the exercise.
 
+The nested tables would probably be queried as they are expanded by the user, rather than at the beginning.
 
+### If I were to work on this project long term
 
-
-## API
-This is the current verison of the query, but feel free to change it up using the generator file (`generate.js`) to a format you think works better. You can play with the GraphQL API at `http://localhost:3000/api/graphql`
-
-```
-{
-  entries {
-    date
-    ingredient
-    count
-    quality
-    notes
-    verify
-    vendor {
-      name
-      ingredients
-      source {
-        api
-        frequency
-      }
-    }
-  }
-}
-```
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If I knew that this was going to be a long-term project, I'd assess it from the perspective of a phone or narrow layout. In that case I'd have to think critically about how to render tabular data with little real estate.

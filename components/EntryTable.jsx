@@ -2,6 +2,10 @@ import { useState } from 'react';
 import sortBy from 'lodash/sortBy';
 import SortableColumnHeader from './SortableColumnHeader';
 
+// TODO: move columns, orderedColumns outside of EntryTable to separate concerns.
+// This is becoming a kind of column definition, and should include how to render
+// each column's value, rather than hardcoding the structure as a part of this
+// component. 
 const columns = {
   date: {
     sortIteratee: (entry) => entry.date,
