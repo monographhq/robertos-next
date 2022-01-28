@@ -38,7 +38,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Robertos Dashboard</h1>
 
-        <EntryTable entries={data.entries} />
+        <EntryTable entries={data.entries} initialLimit={10} />
       </main>
     </div>
   )
