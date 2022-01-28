@@ -46,11 +46,23 @@ const orderedColumns = [
 export default function EntryTable({entries, initialLimit}) {
   const [isTruncated, setIsTruncated] = useState(true);
   const [sortColumn, setSortColumn] = useState(columns.date);
+  const [isSortAscending, setIsSortAscending] = useState(true);
 
-  const sortedEntries = sortBy(entries, [sortColumn.sortIteratee]);
+  const sortedEntriesAscending = sortBy(entries, [sortColumn.sortIteratee]);
+  const sortedEntries = isSortAscending ? sortedEntriesAscending : sortedEntriesAscending.reverse();
   const renderEntries = isTruncated ? sortedEntries.slice(0, initialLimit) : sortedEntries;
 
   const showAllButton = <form><button type="button" onClick={() => setIsTruncated(false)}>View all ⭲</button></form>;
+
+  const handleHeaderClick = (column) => {
+    if(sortColumn === column) {
+      setIsSortAscending(!isSortAscending);
+    } else {
+      setIsSortAscending(true);
+    }
+
+    setSortColumn(column);
+  }
 
   return (
     <>
@@ -61,8 +73,9 @@ export default function EntryTable({entries, initialLimit}) {
             return (
               <SortableColumnHeader
                 key={name}
-                onClick={() => setSortColumn(columns[name])}
+                onClick={() => handleHeaderClick(columns[name])}
                 isSorted={sortColumn === columns[name]}
+                isSortAscending={isSortAscending}
               >
                 {columns[name].heading}
               </SortableColumnHeader>
