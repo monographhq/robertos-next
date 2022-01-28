@@ -4,6 +4,7 @@ import {
   useQuery,
   gql
 } from '@apollo/client';
+import EntryTable from '../components/EntryTable';
 
 const ENTRIES = gql`
   query getEntries {
@@ -19,7 +20,6 @@ const ENTRIES = gql`
     }
   }
 `;
-
 
 export default function Home() {
   const { loading, error, data } = useQuery(ENTRIES);
@@ -38,15 +38,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Robertos Dashboard</h1>
 
-        <ul>
-          {data.entries.map( entry => {
-            return (
-              <li key={entry.date}>
-                {entry.date}, {entry.ingredient}, {entry.count}, {entry.quality}, {entry.verify}, {entry.vendor.name} 
-              </li>
-            )
-          })}
-        </ul>
+        <EntryTable entries={data.entries} />
       </main>
     </div>
   )
