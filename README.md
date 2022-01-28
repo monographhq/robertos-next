@@ -8,6 +8,8 @@ If I had a chance to do this over, I would have thought more about how the final
 
 Obviously I would begin to add CSS. I'd probably use something like Tailwind to add styles within the HTML for the sake of the exercise. I'd use the team's design system if it were a part of a product.
 
+I don't regret starting without styles. Generally I work out HTML/component structure first, making sure it is as semantic as possible. Then I introduce styles, being mindful of making sure meaning that we provide visually is somehow available for users who rely on accessibility tools like screen readers.
+
 In EntryTable I would not include details of the entry columns. Rather, I would continue to create a kind of column definition structure like I started in EntryTable. The column definition structure would also include functions for how to render each table value (e.g., date formatting, enum conversion to strings, React Components for button actions, etc.). It would be defined outside the component and passed in as a prop with the table data.
 
 I would create a NestedTable component that takes the column definitions and the table data. It would manage rendering the outer grouping/expandable tables when row grouping is selected. When row grouping is disabled, it would render an EntryTable with all of the entries. When row grouping is enabled, it would show/hide EntryTable components within each grouped row. Since EntryTable is rendered as an HTML <table>, the grouped rows that contain these tables would be rendered as divs. They'd be aligned vertically using CSS `grid`.
