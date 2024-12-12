@@ -1,1 +1,915 @@
-[{"date":"2021-05-01T00:38:35.554Z","ingredient":"TOMATOES","count":95,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Quality-focused full-range archive","verify":true},{"date":"2021-04-25T17:14:30.999Z","ingredient":"OLIVE_OIL","count":125,"quality":"B","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Extended 6th generation emulation","verify":true},{"date":"2021-06-23T01:00:57.645Z","ingredient":"OLIVE_OIL","count":65,"quality":"C","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Reduced tertiary architecture","verify":true},{"date":"2021-03-21T12:10:22.200Z","ingredient":"TOMATOES","count":133,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Distributed hybrid superstructure","verify":false},{"date":"2021-06-22T13:13:53.581Z","ingredient":"TOMATOES","count":24,"quality":"F","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Organic cohesive matrices","verify":false},{"date":"2021-01-23T17:26:37.439Z","ingredient":"OLIVE_OIL","count":158,"quality":"B","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Synergized full-range core","verify":false},{"date":"2021-04-23T17:39:36.020Z","ingredient":"BASIL","count":195,"quality":"A","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Organized maximized customer loyalty","verify":false},{"date":"2021-01-09T17:26:31.102Z","ingredient":"TOMATOES","count":107,"quality":"D","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"User-friendly mission-critical challenge","verify":false},{"date":"2021-05-14T08:33:57.138Z","ingredient":"TOMATOES","count":127,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Horizontal mission-critical system engine","verify":true},{"date":"2021-06-05T09:42:03.329Z","ingredient":"YEAST","count":54,"quality":"A","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Right-sized mission-critical frame","verify":false},{"date":"2021-01-31T16:44:49.130Z","ingredient":"YEAST","count":163,"quality":"C","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Face to face zero tolerance support","verify":true},{"date":"2021-02-25T01:09:07.103Z","ingredient":"OLIVE_OIL","count":34,"quality":"B","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Digitized foreground artificial intelligence","verify":true},{"date":"2021-06-02T02:42:15.141Z","ingredient":"BASIL","count":172,"quality":"C","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Open-architected demand-driven groupware","verify":true},{"date":"2021-03-12T21:46:34.939Z","ingredient":"MOZZARELLA","count":128,"quality":"A","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Upgradable 6th generation open architecture","verify":false},{"date":"2021-03-04T06:17:15.932Z","ingredient":"MOZZARELLA","count":71,"quality":"A","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Multi-layered client-server concept","verify":true},{"date":"2021-03-09T01:26:41.659Z","ingredient":"TOMATOES","count":121,"quality":"B","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Future-proofed zero tolerance service-desk","verify":false},{"date":"2021-05-03T05:20:53.506Z","ingredient":"YEAST","count":65,"quality":"B","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Synchronised asymmetric instruction set","verify":true},{"date":"2021-05-13T05:05:54.057Z","ingredient":"OLIVE_OIL","count":89,"quality":"F","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Synchronised optimal artificial intelligence","verify":false},{"date":"2021-04-29T21:17:35.111Z","ingredient":"OLIVE_OIL","count":45,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Assimilated radical instruction set","verify":false},{"date":"2021-05-10T19:50:44.157Z","ingredient":"TOMATOES","count":188,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Automated heuristic project","verify":true},{"date":"2021-02-02T17:14:45.170Z","ingredient":"YEAST","count":6,"quality":"A","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Decentralized holistic array","verify":false},{"date":"2021-06-06T06:45:46.652Z","ingredient":"TOMATOES","count":141,"quality":"F","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Function-based systematic function","verify":false},{"date":"2021-02-23T22:34:21.298Z","ingredient":"TOMATOES","count":62,"quality":"B","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Universal leading edge attitude","verify":false},{"date":"2021-06-24T06:16:41.195Z","ingredient":"MOZZARELLA","count":160,"quality":"A","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Organized value-added Graphic Interface","verify":false},{"date":"2021-01-23T00:14:54.685Z","ingredient":"OLIVE_OIL","count":190,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Open-source content-based projection","verify":true},{"date":"2021-03-25T16:58:39.166Z","ingredient":"OLIVE_OIL","count":107,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Networked needs-based moderator","verify":false},{"date":"2021-04-29T20:58:03.111Z","ingredient":"OLIVE_OIL","count":81,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Decentralized empowering array","verify":false},{"date":"2021-01-07T23:15:43.097Z","ingredient":"YEAST","count":183,"quality":"A","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Realigned modular complexity","verify":true},{"date":"2021-02-15T15:48:57.221Z","ingredient":"MOZZARELLA","count":36,"quality":"A","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Grass-roots multimedia concept","verify":true},{"date":"2021-03-11T07:58:33.617Z","ingredient":"TOMATOES","count":96,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"User-friendly next generation internet solution","verify":false},{"date":"2021-02-08T00:31:39.791Z","ingredient":"TOMATOES","count":181,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Integrated real-time monitoring","verify":true},{"date":"2021-02-11T21:19:01.520Z","ingredient":"YEAST","count":117,"quality":"B","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Networked modular service-desk","verify":true},{"date":"2021-06-09T07:24:27.024Z","ingredient":"YEAST","count":174,"quality":"A","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Down-sized cohesive structure","verify":true},{"date":"2021-01-25T14:34:26.383Z","ingredient":"OLIVE_OIL","count":38,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Mandatory zero tolerance collaboration","verify":false},{"date":"2021-06-12T21:41:44.939Z","ingredient":"YEAST","count":102,"quality":"B","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Assimilated optimizing project","verify":false},{"date":"2021-03-16T20:33:22.211Z","ingredient":"OLIVE_OIL","count":173,"quality":"F","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Devolved systematic focus group","verify":false},{"date":"2021-01-22T11:07:52.950Z","ingredient":"OLIVE_OIL","count":118,"quality":"D","vendor":{"name":"Sonoma Farms","ingredients":["MOZZARELLA","OLIVE_OIL"],"source":{"api":"SMS","frequency":"Sporadic"}},"notes":"Streamlined executive infrastructure","verify":false},{"date":"2021-01-20T17:27:10.134Z","ingredient":"TOMATOES","count":19,"quality":"B","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Managed heuristic knowledge base","verify":false},{"date":"2021-02-26T14:32:04.269Z","ingredient":"OLIVE_OIL","count":185,"quality":"A","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Digitized holistic leverage","verify":true},{"date":"2021-06-21T23:27:07.957Z","ingredient":"BASIL","count":66,"quality":"C","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Function-based multi-state pricing structure","verify":false},{"date":"2021-06-17T13:25:10.933Z","ingredient":"TOMATOES","count":115,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Managed contextually-based data-warehouse","verify":true},{"date":"2021-01-18T22:06:16.601Z","ingredient":"OLIVE_OIL","count":27,"quality":"D","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Virtual client-driven orchestration","verify":false},{"date":"2021-04-24T08:50:43.462Z","ingredient":"TOMATOES","count":149,"quality":"A","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Cross-platform systemic pricing structure","verify":false},{"date":"2021-01-19T04:58:59.187Z","ingredient":"TOMATOES","count":41,"quality":"D","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Multi-layered attitude-oriented success","verify":false},{"date":"2021-01-28T22:26:42.023Z","ingredient":"OLIVE_OIL","count":132,"quality":"B","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Right-sized dedicated concept","verify":false},{"date":"2021-01-11T01:57:34.023Z","ingredient":"YEAST","count":87,"quality":"C","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Re-engineered solution-oriented internet solution","verify":false},{"date":"2021-05-15T19:43:35.693Z","ingredient":"OLIVE_OIL","count":92,"quality":"B","vendor":{"name":"Crudo Ogliarolo","ingredients":["OLIVE_OIL"],"source":{"api":"PHONE","frequency":"Sporadic"}},"notes":"Public-key non-volatile orchestration","verify":true},{"date":"2021-03-19T07:30:47.131Z","ingredient":"TOMATOES","count":3,"quality":"F","vendor":{"name":"San Marzano Whole Tomatoes","ingredients":["TOMATOES"],"source":{"api":"WEBHOOK","frequency":"Live"}},"notes":"Self-enabling client-driven access","verify":false},{"date":"2021-01-24T21:33:56.694Z","ingredient":"BASIL","count":177,"quality":"B","vendor":{"name":"Oakland Farmer's Market","ingredients":["BASIL","TOMATOES"],"source":{"api":"EMAIL","frequency":"Seasonal"}},"notes":"Reduced intermediate firmware","verify":true},{"date":"2021-01-30T11:00:00.689Z","ingredient":"YEAST","count":6,"quality":"C","vendor":{"name":"Prop Labs Kolsch Beer Yeast","ingredients":["YEAST"],"source":{"api":"REST","frequency":"Daily"}},"notes":"Switchable actuating interface","verify":true}]
+[
+  {
+    "date": "2021-05-01T00:38:35.554Z",
+    "ingredient": "TOMATOES",
+    "count": 95,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Quality-focused full-range archive",
+    "verify": true
+  },
+  {
+    "date": "2021-04-25T17:14:30.999Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 125,
+    "quality": "B",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Extended 6th generation emulation",
+    "verify": true
+  },
+  {
+    "date": "2021-06-23T01:00:57.645Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 65,
+    "quality": "C",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Reduced tertiary architecture",
+    "verify": true
+  },
+  {
+    "date": "2021-03-21T12:10:22.200Z",
+    "ingredient": "TOMATOES",
+    "count": 133,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Distributed hybrid superstructure",
+    "verify": false
+  },
+  {
+    "date": "2021-06-22T13:13:53.581Z",
+    "ingredient": "TOMATOES",
+    "count": 24,
+    "quality": "F",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Organic cohesive matrices",
+    "verify": false
+  },
+  {
+    "date": "2021-01-23T17:26:37.439Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 158,
+    "quality": "B",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Synergized full-range core",
+    "verify": false
+  },
+  {
+    "date": "2021-04-23T17:39:36.020Z",
+    "ingredient": "BASIL",
+    "count": 195,
+    "quality": "A",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Organized maximized customer loyalty",
+    "verify": false
+  },
+  {
+    "date": "2021-01-09T17:26:31.102Z",
+    "ingredient": "TOMATOES",
+    "count": 107,
+    "quality": "D",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "User-friendly mission-critical challenge",
+    "verify": false
+  },
+  {
+    "date": "2021-05-14T08:33:57.138Z",
+    "ingredient": "TOMATOES",
+    "count": 127,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Horizontal mission-critical system engine",
+    "verify": true
+  },
+  {
+    "date": "2021-06-05T09:42:03.329Z",
+    "ingredient": "YEAST",
+    "count": 54,
+    "quality": "A",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Right-sized mission-critical frame",
+    "verify": false
+  },
+  {
+    "date": "2021-01-31T16:44:49.130Z",
+    "ingredient": "YEAST",
+    "count": 163,
+    "quality": "C",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Face to face zero tolerance support",
+    "verify": true
+  },
+  {
+    "date": "2021-02-25T01:09:07.103Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 34,
+    "quality": "B",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Digitized foreground artificial intelligence",
+    "verify": true
+  },
+  {
+    "date": "2021-06-02T02:42:15.141Z",
+    "ingredient": "BASIL",
+    "count": 172,
+    "quality": "C",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Open-architected demand-driven groupware",
+    "verify": true
+  },
+  {
+    "date": "2021-03-12T21:46:34.939Z",
+    "ingredient": "MOZZARELLA",
+    "count": 128,
+    "quality": "A",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Upgradable 6th generation open architecture",
+    "verify": false
+  },
+  {
+    "date": "2021-03-04T06:17:15.932Z",
+    "ingredient": "MOZZARELLA",
+    "count": 71,
+    "quality": "A",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Multi-layered client-server concept",
+    "verify": true
+  },
+  {
+    "date": "2021-03-09T01:26:41.659Z",
+    "ingredient": "TOMATOES",
+    "count": 121,
+    "quality": "B",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Future-proofed zero tolerance service-desk",
+    "verify": false
+  },
+  {
+    "date": "2021-05-03T05:20:53.506Z",
+    "ingredient": "YEAST",
+    "count": 65,
+    "quality": "B",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Synchronised asymmetric instruction set",
+    "verify": true
+  },
+  {
+    "date": "2021-05-13T05:05:54.057Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 89,
+    "quality": "F",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Synchronised optimal artificial intelligence",
+    "verify": false
+  },
+  {
+    "date": "2021-04-29T21:17:35.111Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 45,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Assimilated radical instruction set",
+    "verify": false
+  },
+  {
+    "date": "2021-05-10T19:50:44.157Z",
+    "ingredient": "TOMATOES",
+    "count": 188,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Automated heuristic project",
+    "verify": true
+  },
+  {
+    "date": "2021-02-02T17:14:45.170Z",
+    "ingredient": "YEAST",
+    "count": 6,
+    "quality": "A",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Decentralized holistic array",
+    "verify": false
+  },
+  {
+    "date": "2021-06-06T06:45:46.652Z",
+    "ingredient": "TOMATOES",
+    "count": 141,
+    "quality": "F",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Function-based systematic function",
+    "verify": false
+  },
+  {
+    "date": "2021-02-23T22:34:21.298Z",
+    "ingredient": "TOMATOES",
+    "count": 62,
+    "quality": "B",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Universal leading edge attitude",
+    "verify": false
+  },
+  {
+    "date": "2021-06-24T06:16:41.195Z",
+    "ingredient": "MOZZARELLA",
+    "count": 160,
+    "quality": "A",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Organized value-added Graphic Interface",
+    "verify": false
+  },
+  {
+    "date": "2021-01-23T00:14:54.685Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 190,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Open-source content-based projection",
+    "verify": true
+  },
+  {
+    "date": "2021-03-25T16:58:39.166Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 107,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Networked needs-based moderator",
+    "verify": false
+  },
+  {
+    "date": "2021-04-29T20:58:03.111Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 81,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Decentralized empowering array",
+    "verify": false
+  },
+  {
+    "date": "2021-01-07T23:15:43.097Z",
+    "ingredient": "YEAST",
+    "count": 183,
+    "quality": "A",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Realigned modular complexity",
+    "verify": true
+  },
+  {
+    "date": "2021-02-15T15:48:57.221Z",
+    "ingredient": "MOZZARELLA",
+    "count": 36,
+    "quality": "A",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Grass-roots multimedia concept",
+    "verify": true
+  },
+  {
+    "date": "2021-03-11T07:58:33.617Z",
+    "ingredient": "TOMATOES",
+    "count": 96,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "User-friendly next generation internet solution",
+    "verify": false
+  },
+  {
+    "date": "2021-02-08T00:31:39.791Z",
+    "ingredient": "TOMATOES",
+    "count": 181,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Integrated real-time monitoring",
+    "verify": true
+  },
+  {
+    "date": "2021-02-11T21:19:01.520Z",
+    "ingredient": "YEAST",
+    "count": 117,
+    "quality": "B",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Networked modular service-desk",
+    "verify": true
+  },
+  {
+    "date": "2021-06-09T07:24:27.024Z",
+    "ingredient": "YEAST",
+    "count": 174,
+    "quality": "A",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Down-sized cohesive structure",
+    "verify": true
+  },
+  {
+    "date": "2021-01-25T14:34:26.383Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 38,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Mandatory zero tolerance collaboration",
+    "verify": false
+  },
+  {
+    "date": "2021-06-12T21:41:44.939Z",
+    "ingredient": "YEAST",
+    "count": 102,
+    "quality": "B",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Assimilated optimizing project",
+    "verify": false
+  },
+  {
+    "date": "2021-03-16T20:33:22.211Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 173,
+    "quality": "F",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Devolved systematic focus group",
+    "verify": false
+  },
+  {
+    "date": "2021-01-22T11:07:52.950Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 118,
+    "quality": "D",
+    "vendor": {
+      "name": "Sonoma Farms",
+      "ingredients": [
+        "MOZZARELLA",
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "SMS",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Streamlined executive infrastructure",
+    "verify": false
+  },
+  {
+    "date": "2021-01-20T17:27:10.134Z",
+    "ingredient": "TOMATOES",
+    "count": 19,
+    "quality": "B",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Managed heuristic knowledge base",
+    "verify": false
+  },
+  {
+    "date": "2021-02-26T14:32:04.269Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 185,
+    "quality": "A",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Digitized holistic leverage",
+    "verify": true
+  },
+  {
+    "date": "2021-06-21T23:27:07.957Z",
+    "ingredient": "BASIL",
+    "count": 66,
+    "quality": "C",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Function-based multi-state pricing structure",
+    "verify": false
+  },
+  {
+    "date": "2021-06-17T13:25:10.933Z",
+    "ingredient": "TOMATOES",
+    "count": 115,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Managed contextually-based data-warehouse",
+    "verify": true
+  },
+  {
+    "date": "2021-01-18T22:06:16.601Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 27,
+    "quality": "D",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Virtual client-driven orchestration",
+    "verify": false
+  },
+  {
+    "date": "2021-04-24T08:50:43.462Z",
+    "ingredient": "TOMATOES",
+    "count": 149,
+    "quality": "A",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Cross-platform systemic pricing structure",
+    "verify": false
+  },
+  {
+    "date": "2021-01-19T04:58:59.187Z",
+    "ingredient": "TOMATOES",
+    "count": 41,
+    "quality": "D",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Multi-layered attitude-oriented success",
+    "verify": false
+  },
+  {
+    "date": "2021-01-28T22:26:42.023Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 132,
+    "quality": "B",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Right-sized dedicated concept",
+    "verify": false
+  },
+  {
+    "date": "2021-01-11T01:57:34.023Z",
+    "ingredient": "YEAST",
+    "count": 87,
+    "quality": "C",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Re-engineered solution-oriented internet solution",
+    "verify": false
+  },
+  {
+    "date": "2021-05-15T19:43:35.693Z",
+    "ingredient": "OLIVE_OIL",
+    "count": 92,
+    "quality": "B",
+    "vendor": {
+      "name": "Crudo Ogliarolo",
+      "ingredients": [
+        "OLIVE_OIL"
+      ],
+      "source": {
+        "api": "PHONE",
+        "frequency": "Sporadic"
+      }
+    },
+    "notes": "Public-key non-volatile orchestration",
+    "verify": true
+  },
+  {
+    "date": "2021-03-19T07:30:47.131Z",
+    "ingredient": "TOMATOES",
+    "count": 3,
+    "quality": "F",
+    "vendor": {
+      "name": "San Marzano Whole Tomatoes",
+      "ingredients": [
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "WEBHOOK",
+        "frequency": "Live"
+      }
+    },
+    "notes": "Self-enabling client-driven access",
+    "verify": false
+  },
+  {
+    "date": "2021-01-24T21:33:56.694Z",
+    "ingredient": "BASIL",
+    "count": 177,
+    "quality": "B",
+    "vendor": {
+      "name": "Oakland Farmer's Market",
+      "ingredients": [
+        "BASIL",
+        "TOMATOES"
+      ],
+      "source": {
+        "api": "EMAIL",
+        "frequency": "Seasonal"
+      }
+    },
+    "notes": "Reduced intermediate firmware",
+    "verify": true
+  },
+  {
+    "date": "2021-01-30T11:00:00.689Z",
+    "ingredient": "YEAST",
+    "count": 6,
+    "quality": "C",
+    "vendor": {
+      "name": "Prop Labs Kolsch Beer Yeast",
+      "ingredients": [
+        "YEAST"
+      ],
+      "source": {
+        "api": "REST",
+        "frequency": "Daily"
+      }
+    },
+    "notes": "Switchable actuating interface",
+    "verify": true
+  }
+]

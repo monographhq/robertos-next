@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {
-  useQuery,
-  gql
-} from '@apollo/client';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import { useQuery, gql } from "@apollo/client";
 
 const ENTRIES = gql`
   query getEntries {
@@ -20,34 +17,67 @@ const ENTRIES = gql`
   }
 `;
 
+// @todo ROBERTO: Wire up API!
+// const STATS = gql`
+//   query getVendorStats {
+//     vendorStats {
+//       name
+//       averageQuality
+//       contactMethod
+//     }
+//   }
+// `;
 
 export default function Home() {
-  const { loading, error, data } = useQuery(ENTRIES);
+  const { loading, data } = useQuery(ENTRIES);
 
   if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
 
   return (
     <div className={styles.container}>
       <Head>
         <title>Robertos</title>
         <meta name="description" content="Robertos" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
-        <h1>Robertos Dashboard</h1>
+        <h1 className={styles.header}>Robertos Dashboard</h1>
 
-        <ul>
-          {data.entries.map( entry => {
+        {/* @todo ROBERTO: Wire up API! */}
+        {/* <ul>
+          {data.vendorStats.map((vendor) => {
             return (
-              <li key={entry.date}>
-                {entry.date}, {entry.ingredient}, {entry.count}, {entry.quality}, {entry.verify}, {entry.vendor.name} 
+              <li key={vendor.name}>
+                {vendor.name}, {vendor.averageQuality}, {vendor.contactMethod}
               </li>
-            )
+            );
           })}
-        </ul>
+        </ul> */}
+
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <th className={styles.tableHeader}>Date</th>
+              <th className={styles.tableHeader}>Ingredient</th>
+              <th className={styles.tableHeader}>Count</th>
+              <th className={styles.tableHeader}>Quality</th>
+              <th className={styles.tableHeader}>Vendor</th>
+            </tr>
+          </thead>
+          {data.entries.map((entry) => {
+            return (
+              <tr key={entry.date}>
+                <td>{new Date(entry.date).toLocaleDateString("en-US")}</td>
+                <td>{entry.ingredient}</td>
+                <td>{entry.count}</td>
+                <td>{entry.quality}</td>
+                <td>{entry.vendor.name}</td>
+              </tr>
+            );
+          })}
+        </table>
       </main>
     </div>
-  )
+  );
 }

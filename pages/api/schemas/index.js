@@ -1,6 +1,6 @@
-import  {  gql  }  from  "apollo-server-micro"; 
+import { gql } from "apollo-server-micro";
 
-export  const  typeDefs = gql`
+export const typeDefs = gql`
   scalar Date
 
   enum Ingredient {
@@ -19,13 +19,19 @@ export  const  typeDefs = gql`
     F
   }
 
+  type VendorStat {
+    name: String!
+    averageQuality: Float
+    contactMethod: String
+  }
+
   type Entry {
     date: Date!
     ingredient: Ingredient!
     vendor: Vendor!
     count: Int!
     quality: Quality!
-    notes: String,
+    notes: String
     verify: Boolean
   }
 
@@ -50,5 +56,6 @@ export  const  typeDefs = gql`
 
   type Query {
     entries: [Entry]
+    vendorStats: [VendorStat]
   }
-`
+`;
