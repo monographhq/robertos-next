@@ -34,8 +34,8 @@ To learn more about Next.js and Apollo, take a look at the following resources:
   - Handle these gracefully. What's a good approach?
 - Wow, Roberto's business is really taking off. It'd be great to get some insight into our vendors. Let's create some reporting so he can get insight into his vendors. For each vendor, we'd like to see:
   - Name of vendor
-  - Average quality
-  - Contact method
+  - Average quality on a 1-5 scale
+  - Vendor-provided ingredients
 
 What else could we do to improve Roberto's dashboard? Search? Notifications? Scaling?
 
@@ -63,12 +63,3 @@ This is the current verison of the query, but feel free to change it up using th
   }
 }
 ```
-
-Build a sortable, nestable, groupable table view in React using the GraphQL API. The image below is for reference, please feel free to take creative liberties with the implementation on both design and product. [Figma file](https://www.figma.com/file/dmMcy9QvRHpWaxrOEQQrbG/Robertos-Dashboard?node-id=8%3A509) for additional reference.
-
-**Group by:** To help Roberto organize the entry updates, please add a way to group the entry rows by ingredient. The image shows a dropdown, but you can implement with a simple button.
-
-**View all:** For the nested entries, only show a few (10) then have a button to show the rest of the entries. Product implementation is up to you
-
-![flat](https://user-images.githubusercontent.com/1373293/124149320-521a8380-da45-11eb-827b-7eae897ad87b.jpg)
-![grouped](https://user-images.githubusercontent.com/1373293/124194357-4945a400-da7d-11eb-98be-9ae4e8bb1015.jpg)

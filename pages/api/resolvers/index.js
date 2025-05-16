@@ -12,12 +12,16 @@ export const resolvers = {
     },
     vendorStats: async () => {
       try {
-        // @todo: Implement logic to calculate vendor stats
+        // @todo ROBERTO: Implement logic to calculate vendor stats
         return [
           {
             name: "Vendor name",
             averageQuality: 3.5,
-            contactMethod: "Snail mail",
+            ingredients: [
+              {
+                name: "Tomatoes",
+              },
+            ],
           },
         ];
       } catch (error) {

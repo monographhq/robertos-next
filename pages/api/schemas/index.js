@@ -19,10 +19,14 @@ export const typeDefs = gql`
     F
   }
 
+  type IngredientListItem {
+    name: String!
+  }
+
   type VendorStat {
     name: String!
     averageQuality: Float
-    contactMethod: String
+    ingredients: [IngredientListItem]
   }
 
   type Entry {
@@ -31,7 +35,6 @@ export const typeDefs = gql`
     vendor: Vendor!
     count: Int!
     quality: Quality!
-    notes: String
     verify: Boolean
   }
 

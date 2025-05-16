@@ -6,11 +6,20 @@ import {
   from,
 } from "@apollo/client";
 import { HttpLink } from "@apollo/client/link/http";
+import { onError } from "@apollo/client/link/error";
 
 const httpLink = new HttpLink({ uri: "http://localhost:3000/api/graphql" });
+const errorLink = onError(({ graphQLErrors, networkError }) => {
+  if (graphQLErrors) {
+    console.log("graphQLErrors", graphQLErrors);
+  }
+  if (networkError) {
+    console.log("networkError", networkError);
+  }
+});
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  link: from([httpLink]),
+  link: from([errorLink, httpLink]),
 });
 
 function MyApp({ Component, pageProps }) {

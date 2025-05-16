@@ -17,19 +17,8 @@ const ENTRIES = gql`
   }
 `;
 
-// @todo ROBERTO: Wire up API!
-// const STATS = gql`
-//   query getVendorStats {
-//     vendorStats {
-//       name
-//       averageQuality
-//       contactMethod
-//     }
-//   }
-// `;
-
 export default function Home() {
-  const { loading, data } = useQuery(ENTRIES);
+  const { loading, data, error } = useQuery(ENTRIES);
 
   if (loading) return <p>Loading...</p>;
 
@@ -43,17 +32,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.header}>Robertos Dashboard</h1>
-
-        {/* @todo ROBERTO: Wire up API! */}
-        {/* <ul>
-          {data.vendorStats.map((vendor) => {
-            return (
-              <li key={vendor.name}>
-                {vendor.name}, {vendor.averageQuality}, {vendor.contactMethod}
-              </li>
-            );
-          })}
-        </ul> */}
 
         <table className={styles.table}>
           <thead>
